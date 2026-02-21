@@ -22,5 +22,4 @@ venv.bak/
 **/migrations
 *.DS_Store
 **/__pycache__
-**/.DS_Store
-.history
+**/.DS_

@@ -23,6 +23,20 @@ def viewbook(request, bookId):
     context = {'book': targetBook}
     return render(request, 'bookmodule/show.html', context)
 
+def links_page(request):
+    return render(request, 'books/links.html')
+
+def listing_page(request):
+    return render(request, 'books/listing.html')
+
+
+def tables_page(request):
+    return render(request, 'books/tables.html')
+
+def text_formatting_page(request):
+    return render(request, 'books/text_formatting.html')
+
+
 def index3(request, val1, val2):
     return HttpResponse(f"val1 = {val1}, val2 = {val2}")
 

@@ -45,7 +45,11 @@ ROOT_URLCONF = 'libraryproject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / "templates"],   # ← لو عندك مجلد templates عام
+        'DIRS': [BASE_DIR / "apps/bookmodule/templates"],
+        
+
+
+ 
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

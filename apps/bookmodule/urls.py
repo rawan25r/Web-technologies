@@ -13,5 +13,6 @@ urlpatterns = [
     path('html5/listing', views.listing_page, name='listing'),
     path('html5/tables', views.tables_page, name='tables'),
 
-
+    # إضافة صفحة البحث هنا
+    path('search/', views.search_books, name='search_books'),
 ]
